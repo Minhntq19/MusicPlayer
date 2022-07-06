@@ -189,7 +189,7 @@ const app = {
     cdThumb.style.backgroundImage = `url("${this.currentSong.image}")`;
     audio.src = this.currentSong.path;
   },
-  //Next song
+  //Next song button
   nextSong: function () {
     this.currentIndex++;
     if (this.currentIndex >= this.songs.length) {
